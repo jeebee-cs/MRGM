@@ -1,0 +1,66 @@
+{
+  "name": "webit-starterkit",
+  "title": "Webit Starterkit",
+  "description": "A starter theme for wordpress",
+  "version": "3.0.0",
+  "homepage": "https://bitbucket.org/webit_interactive/webit-starter-bedrock/",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/webit_interactive/webit-starter-bedrock/"
+  },
+  "author": {
+    "name": "Webit Interactive",
+    "email": "dev@webitinteractive.ca",
+    "url": "http://webitinteractive.ca"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-environments": "^1.0.1",
+    "gulp-header": "^2.0.9",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "7.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-newer": "1.4.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-potomo": "^1.1.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.4.1",
+    "gulp-wp-pot": "^2.5.0",
+    "jshint": "^2.13.0",
+    "jshint-stylish": "^2.2.1",
+    "sass": "^1.35.1",
+    "swiper": "^6.8.4",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.3"
+  },
+  "browserslist": [
+    "> 0.25%, not dead"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "@fancyapps/fancybox": "3.5.2",
+    "bootstrap": "^5.0.2",
+    "browser-sync": "^2.27.5",
+    "del": "^5.1.0",
+    "gsap": "^3.6.0",
+    "npm-force-resolutions": "0.0.3"
+  }
+}

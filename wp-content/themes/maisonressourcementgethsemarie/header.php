@@ -20,12 +20,28 @@
 </head>
 
 <body>
-	<?php wp_body_open(); ?>
+	<!-- <?php /* wp_body_open(); */ ?> -->
 	<header id="masterhead">
-		<div class="desktop"><?php wp_nav_menu(["menu" => "Header"]) ?></div>
+
+		<img src="" alt="" class="logo" id="logoHeader">
+		<nav>
+			<a href="#">Ressourcement</a>
+			<a href="#">Funérailles</a>
+			<a href="#">Calendrier</a>
+			<a href="#">Témoignage</a>
+			<a href="#">Histoire</a>
+		</nav>
+		<button class="orangeBtn contactezNousBtn" id="contactezNousBtnHeader">Contactez Nous</button>
+		<button class="burgerMenu">
+			<img src="wp-content\themes\maisonressourcementgethsemarie\template-parts\images\menu.svg" alt="menu">
+		</button>
+
+	</header>
+
+	<!-- <div class="desktop"><?php /* wp_nav_menu(["menu" => "Header"]) */ ?></div>
 		<div class="mobile">
 			<ul>
-				<li><?php wp_nav_menu(["menu" => "Header"]) ?></li>
+				<li><?php /* wp_nav_menu(["menu" => "Header"]) */ ?></li>
 				<li class="menu-burger-container">
 					<i class="menu-burger">
 						<div class="bars top-bars"></div>
@@ -34,6 +50,5 @@
 					</i>
 				</li>
 			</ul>
-			<?php wp_nav_menu(["menu" => "Header"]) ?>
-		</div>
-	</header>
+			<?php /* wp_nav_menu(["menu" => "Header"]) */ ?>
+		</div> -->
